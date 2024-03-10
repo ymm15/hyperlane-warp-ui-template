@@ -6,7 +6,7 @@ const filters = [
   "Request rejected", // Unknown noise during Next.js init
   "WebSocket connection failed for host", // WalletConnect flakiness
   "Socket stalled when trying to connect", // Same ^
-  // Some recommendations from https://docs.sentry.io/platforms/javascript/configuration/filtering
+  // Some recommendations from https://docs.sentry.io/platforms/javascript/configuration/filtering // Filtering - Sentry for Javascript
   "top.GLOBALS",
   "originalCreateNotification",
   "canvas.contentDocument",
